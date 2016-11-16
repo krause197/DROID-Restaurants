@@ -37,5 +37,19 @@
         android:background="@color/button_material_dark"
         android:textColor="@color/primary_text_default_material_dark" />
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/locationEditText"
+        android:layout_above="@+id/findRestaurandButton"
+        android:layout_marginBottom="10dp"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:background="@color/primary_light"
+        android:padding="@dimen/abc_edit_text_inset_horizontal_material"
+        android:hint="Enter Zip Code" />
+
 
 </RelativeLayout>
